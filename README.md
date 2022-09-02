@@ -4,7 +4,7 @@ Read more about OpenAttestation's `Decentralised Renderer` Architectural Decisio
 
 ## Introduction
 
-This repository is a bare minimal demostration of how an OpenAttestation `Decentralised Renderer` + Viewer works.
+This repository is a bare minimal demostration of how an OpenAttestation `Decentralised Renderer` + `Viewer` works.
 
 ## How to run
 
