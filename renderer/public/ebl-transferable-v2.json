@@ -1,0 +1,42 @@
+{
+  "name": "TradeTrust Bill of Lading v2",
+  "shipper": {
+    "address": {
+      "street": "One North",
+      "country": "Singapore"
+    },
+    "name": "Demo Shipper"
+  },
+  "consignee": {
+    "name": "Demo Consignee"
+  },
+  "notifyParty": {
+    "name": "Demo Notify"
+  },
+  "$template": {
+    "type": "EMBEDDED_RENDERER",
+    "name": "BILL_OF_LADING",
+    "url": "https://generic-templates.tradetrust.io"
+  },
+  "issuers": [
+    {
+      "identityProof": {
+        "type": "DNS-TXT",
+        "location": "demo-tradetrust.openattestation.com"
+      },
+      "name": "Demo token registry",
+      "tokenRegistry": "0x921dC7cEF00155ac3A33f04DA7395324d7809757"
+    }
+  ],
+  "blNumber": "123",
+  "vessel": "1",
+  "voyageNo": "100",
+  "portOfLoading": "Singapore Port",
+  "portOfDischarge": "China Port",
+  "placeOfReceipt": "Beijing",
+  "placeOfDelivery": "Singapore",
+  "network": {
+    "chain": "ETH",
+    "chainId": "5"
+  }
+}

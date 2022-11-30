@@ -3,6 +3,9 @@ import ReactDOM from "react-dom/client";
 import { FramedDocumentRenderer } from "@govtechsg/decentralized-renderer-react-components";
 import "./index.css";
 
+// FramedDocumentRenderer example
+// https://github.com/Open-Attestation/decentralized-renderer-react-components#frameddocumentrenderer
+
 const TemplateA: React.FunctionComponent<any> = ({ document }) => {
   const issuer = document.issuers[0].name;
 

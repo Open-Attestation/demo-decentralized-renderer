@@ -1,0 +1,47 @@
+{
+  "$template": {
+    "type": "EMBEDDED_RENDERER",
+    "name": "CERTIFICATE_OF_NON_MANIPULATION",
+    "url": "https://demo-cnm.openattestation.com"
+  },
+  "issuers": [
+    {
+      "name": "DEMO STORE",
+      "documentStore": "0xE6E022a802a547edD08761361520BC0d3bEB7784",
+      "identityProof": {
+        "type": "DNS-TXT",
+        "location": "demo.tradetrust.io"
+      }
+    }
+  ],
+  "recipient": {
+    "name": "SG FREIGHT",
+    "address": {
+      "street": "101 ORCHARD ROAD",
+      "country": "SINGAPORE"
+    }
+  },
+  "consignment": {
+    "description": "16667 CARTONS OF RED WINE",
+    "quantity": {
+      "value": "5000",
+      "unit": "LITRES"
+    },
+    "countryOfOrigin": "AUSTRALIA",
+    "outwardBillNo": "AQSIQ170923130",
+    "dateOfDischarge": "2018-01-26",
+    "dateOfDeparture": "2018-01-30",
+    "countryOfFinalDestination": "CHINA",
+    "outgoingVehicleNo": "COSCO JAPAN 074E/30-JAN"
+  },
+  "declaration": {
+    "name": "PETER LEE",
+    "designation": "SHIPPING MANAGER",
+    "date": "2018-01-28"
+  },
+  "certification": {
+    "name": "DEMO JOHN TAN",
+    "designation": "DEMO",
+    "date": "2018-01-28"
+  }
+}
