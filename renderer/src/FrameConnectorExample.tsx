@@ -4,7 +4,7 @@ import {
   HostActionsHandler,
   renderDocument,
 } from "@govtechsg/decentralized-renderer-react-components";
-import EBL_V2 from "./fixture/ebl-transferable-v2.json"; // use ebl-cnm-v2.json to see another renderer at work
+import EBL_V2 from "./fixture/ebl-transferable-v2.json"; // use ebl-cnm-v2.json and hard refresh to see another renderer at work
 
 const dispatchActions = (action: FrameActions) => {
   if (action.type === "UPDATE_HEIGHT") {

@@ -1,6 +1,5 @@
 import React from "react";
 import { FramedDocumentRenderer } from "@govtechsg/decentralized-renderer-react-components";
-import "./index.css";
 
 const TemplateA: React.FunctionComponent<any> = ({ document }) => {
   const issuer = document.issuers[0].name;

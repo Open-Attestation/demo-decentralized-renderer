@@ -1,4 +1,3 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
 import { FrameConnectorExample } from "./FrameConnectorExample";
 import { FramedDocumentRendererExample } from "./FramedDocumentRendererExample";
